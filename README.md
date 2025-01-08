@@ -12,13 +12,13 @@
 Open the `detect.py` file and modify the `test_image_path` variable to point to your JPEG image.
 ```python
    test_image_path = 'path/to/your/image.jpg'
-
+```
 
 Then run the following
 
 ```python
    python detect.py
-
+```
 
 
 
