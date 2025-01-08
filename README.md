@@ -1,8 +1,19 @@
 # YOLOv11-Face-Mask-Detection
 
-My model is on "runs/detect/train3", however I accidentally mixed up the labels, so without_mask is actually with_mask, and vice versa.
+## Model Details
 
-I will fix it later.
+- **Model Location:** `runs/detect/train3`
+  
+  > **Note:** There is an issue with the label assignments. The `without_mask` label is incorrectly assigned to `with_mask` detections, and vice versa. This will be corrected in a future update.
 
-Modify the "test_image_path" in "detect.py" to your own jpg, then run "python detect.py". 
+
+## How to use
+
+Open the `detect.py` file and modify the `test_image_path` variable to point to your JPEG image.
+
+Then 
+
+```python
+   test_image_path = 'path/to/your/image.jpg'
+
 
