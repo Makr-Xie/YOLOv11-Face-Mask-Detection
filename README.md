@@ -20,6 +20,7 @@ Then run the following
    python detect.py
 ```
 
+Dataset, https://www.kaggle.com/datasets/andrewmvd/face-mask-detection
 
 
 
