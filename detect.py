@@ -14,5 +14,5 @@ def perform_detection(image_path, save=True, save_dir='runs/detect/predict'):
 
 
 if __name__ == "__main__":
-    test_image_path = ""
+    test_image_path = "/Users/yixuan/Desktop/Unjuanable/Github/yolov11/YOLOv11-Face-Mask-Detection/duolaAmeng.jpeg"
     perform_detection(test_image_path)

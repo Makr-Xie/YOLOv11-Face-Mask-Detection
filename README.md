@@ -20,7 +20,10 @@ Then run the following
    python detect.py
 ```
 
+I used this tutorial from Kaggle as a reference, https://www.kaggle.com/code/ihsncnkz/face-mask-detection-with-yolov11
+
 Dataset, https://www.kaggle.com/datasets/andrewmvd/face-mask-detection
+
 
 
 
